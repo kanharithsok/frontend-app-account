@@ -11,6 +11,10 @@ $fa-font-path: "~font-awesome/fonts";
 @import "./account-settings/style";
 @import "./id-verification/id-verification";
 
+.container-fluid {
+  max-width: 1600px;
+}
+
 .word-break-all {
   word-break: break-all !important;
 }
