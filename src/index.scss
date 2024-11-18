@@ -160,3 +160,25 @@ $fa-font-path: "~font-awesome/fonts";
   }
 }
 
+.nav-link {
+  color: #21472E;
+  &:hover {
+    background-color: #21472E !important;
+  }
+}
+
+.menu {
+  .btn-outline-primary {
+    border-color: #21472E !important;
+    color: #21472E;
+    background-color: white;
+    border-radius: 0px;
+    margin: 0px;
+  }
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+  width: 288px !important;
+  padding: 10px !important;
+}
