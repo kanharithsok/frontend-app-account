@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&family=Battambang:wght@400;700&family=Red+Hat+Display:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+$default-font: 'Kantumruy Pro', 'Inter', sans-serif;
+
+// Apply Global Font Styles
+h1, h2, h3, h4, h5, h6, p, a, * {
+  font-family: $default-font !important;
+}
+
 .page__account-settings {
   .form-group {
     margin-bottom: 1.5rem;
