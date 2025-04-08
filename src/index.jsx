@@ -1,25 +1,28 @@
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
-import 'formdata-polyfill';
-import { AppProvider, ErrorPage } from '@edx/frontend-platform/react';
 import {
-  subscribe, initialize, APP_INIT_ERROR, APP_READY, mergeConfig,
+  APP_INIT_ERROR, APP_READY,
+  initialize,
+  mergeConfig,
+  subscribe,
 } from '@edx/frontend-platform';
+import { AppProvider, ErrorPage } from '@edx/frontend-platform/react';
+import 'formdata-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Routes, Outlet } from 'react-router-dom';
+import { Outlet, Route, Routes } from 'react-router-dom';
 
 import Header from '@edx/frontend-component-header';
-import FooterSlot from '@openedx/frontend-slot-footer';
 
-import configureStore from './data/configureStore';
 import AccountSettingsPage, { NotFoundPage } from './account-settings';
-import IdVerificationPageSlot from './plugin-slots/IdVerificationPageSlot';
+import configureStore from './data/configureStore';
 import messages from './i18n';
+import IdVerificationPageSlot from './plugin-slots/IdVerificationPageSlot';
 
-import './index.scss';
+import MYFooter from './Footer/MyFooter';
 import Head from './head/Head';
+import './index.scss';
 import NotificationCourses from './notification-preferences/NotificationCourses';
 import NotificationPreferences from './notification-preferences/NotificationPreferences';
 
@@ -34,7 +37,8 @@ subscribe(APP_READY, () => {
             <main className="flex-grow-1" id="main">
               <Outlet />
             </main>
-            <FooterSlot />
+            {/* <FooterSlot /> */}
+            <MYFooter />
           </div>
         )}
         >
