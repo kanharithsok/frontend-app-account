@@ -24,7 +24,7 @@ const MyFooter = () => {
               <Col xs={12} md={12} lg={3} className="mb-4 mb-md-0 d-flex align-items-center justify-content-center">
                 <p className="small m-0">&copy; 2024 Credit Bureau Cambodia. All rights reserved.</p>
               </Col>
-              <Col xs={9} md={9} lg={3} className="pb-4 d-flex justify-content-center">
+              <Col xs={12} md={12} lg={3} className="pb-4 d-flex justify-content-center">
                 {/* <ul className="list-inline m-0">
                   <li className="list-inline-item mx-2">
                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white">
