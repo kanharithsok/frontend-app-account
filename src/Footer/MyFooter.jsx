@@ -25,7 +25,7 @@ const MyFooter = () => {
               </Col>
 
               {/* Links */}
-              <Col xs={12} md={12} lg={5} className="mb-4 mb-md-0 d-flex align-items-center justify-content-center">
+              <Col xs={12} md={12} lg={4} className="my-links mb-4 mb-md-0 d-flex align-items-center justify-content-end">
                 <ul className="list-inline m-0">
                   <li className="list-inline-item mx-2">
                     <a href={getConfig().LMS_BASE_URL} className="text-white small">
