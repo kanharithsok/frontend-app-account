@@ -15,19 +15,17 @@ const MyFooter = () => {
           <Container fluid>
             <Row className="text-left text-white text-md-left">
               {/* Logo */}
-              <Col xs={12} md={12} lg={2} className="pl-0 d-flex justify-content-center">
+              <Col xs={12} md={12} lg={2} className="pl-0 d-flex m-2 justify-content-center ">
                 <img src={logoWhite} alt="Logo" className="logo" />
               </Col>
 
               {/* Copyright */}
-              <Col xs={12} md={12} lg={3} className="mb-4 mb-md-0 d-flex align-items-center justify-content-center">
-                <p className="small m-0">{formatMessage(messages.allRightsReserved)}</p>
+              <Col xs={12} md={12} lg={5} className="mb-4 mb-md-0 d-flex align-items-center justify-content-center">
+                <p className="small m-0 text-center">{formatMessage(messages.allRightsReserved)}</p>
               </Col>
-              <Col xs={9} md={9} lg={3} className="pb-4 d-flex justify-content-center">
-                {/* Social Media Icons (commented out) */}
-              </Col>
+
               {/* Links */}
-              <Col xs={12} md={12} lg={4} className="mb-4 mb-md-0 d-flex align-items-center justify-content-center">
+              <Col xs={12} md={12} lg={5} className="mb-4 mb-md-0 d-flex align-items-center justify-content-center">
                 <ul className="list-inline m-0">
                   <li className="list-inline-item mx-2">
                     <a href={getConfig().LMS_BASE_URL} className="text-white small">
