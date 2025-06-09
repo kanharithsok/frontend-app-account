@@ -2,7 +2,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 
 const messages = defineMessages({
   myCourse: {
-    id: 'myCourse',
+    id: 'learnerVariantDashboard.myCourse',
     description: 'My Course link in footer',
     defaultMessage: 'My Course',
   },
