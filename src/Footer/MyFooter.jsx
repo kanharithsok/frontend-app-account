@@ -1,7 +1,6 @@
 import { getConfig } from '@edx/frontend-platform';
 import { useIntl } from '@edx/frontend-platform/i18n';
 import { Col, Container, Row } from 'react-bootstrap';
-import logoWhite from '../assets/logo-white.png';
 import './Footer.scss';
 import messages from './messages';
 
@@ -16,7 +15,7 @@ const MyFooter = () => {
             <Row className="text-left text-white text-md-left">
               {/* Logo */}
               <Col xs={12} md={12} lg={2} className="pl-0 d-flex m-2 justify-content-center ">
-                <img src={logoWhite} alt="Logo" className="logo" />
+                {/* <img src={logoWhite} alt="Logo" className="logo" /> */}
               </Col>
 
               {/* Copyright */}
