@@ -17,12 +17,14 @@ Footer {
   display: none !important;
 }
 .footer-container {
-  // position: fixed;
-  // bottom: 0;
-  //width: 100%;
+ 
+  background-color: #f3d287 !important;
+  background-image: url("../assets/footer-bg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100% !important;
   color: #ffffff;
-  // background-color: #12492a !important;
-  background-color: #EFA834 !important;
+
   display:flex;
   align-items: center;
   justify-content: center;
